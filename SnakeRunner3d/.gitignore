@@ -3,6 +3,7 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 /SnakeRunner3d/Library/
+/SnakeRunner3d/Library/Artifacts/
 /SnakeRunner3d/Temp/
 /SnakeRunner3d/Obj/
 /SnakeRunner3d/Build/
