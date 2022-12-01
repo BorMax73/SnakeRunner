@@ -24,4 +24,18 @@ public abstract class Movement : MonoBehaviour
 
         _rigidbody.MovePosition(_rigidbody.position + offset);
     }
+
+    //BORMAX CODE
+
+    //public static Action<int> OnCoinGet;
+
+    public void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("OnTriggerEnter");
+        if (other.CompareTag("Coin"))
+        {
+            EventManager.OnCoinGet?.Invoke(1);
+            Destroy(other.gameObject);
+        }
+    }
 }
