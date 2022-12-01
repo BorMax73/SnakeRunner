@@ -6,12 +6,13 @@ public class GameManager : MonoBehaviour
 {
     private void OnEnable()
     {
-        Player.OnCoinGet += AddCoins;
+        EventManager.OnCoinGet += AddCoins;
+        
     }
 
     private void OnDisable()
     {
-        Player.OnCoinGet -= AddCoins;
+        EventManager.OnCoinGet += AddCoins;
     }
     private void AddCoins(int coins)
     {
