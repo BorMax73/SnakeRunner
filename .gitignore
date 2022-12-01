@@ -10,7 +10,7 @@
 /SnakeRunner3d/Builds/
 /SnakeRunner3d/Logs/
 /SnakeRunner3d/Settings/
-
+./SnakeRunner3d/Temp/
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /SnakeRunner3d/MemoryCaptures/
@@ -71,3 +71,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+SnakeRunner3d/Library/ArtifactDB
+SnakeRunner3d/Temp/PropertyDatabase_1265138678
+SnakeRunner3d/Temp/PropertyDatabase_1265138678
+SnakeRunner3d/Library/Bee/1900b0aE.dag.json
+SnakeRunner3d/Logs/shadercompiler-UnityShaderCompiler.exe0.log
