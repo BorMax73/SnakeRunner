@@ -31,7 +31,7 @@ public abstract class Movement : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        Debug.Log("OnTriggerEnter");
+        //Debug.Log("OnTriggerEnter");
         if (other.CompareTag("Coin"))
         {
             EventManager.OnCoinGet?.Invoke(1);
