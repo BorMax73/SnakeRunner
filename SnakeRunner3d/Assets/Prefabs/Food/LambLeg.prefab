@@ -141,3 +141,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _foodValue: 5
+  particleSystem: {fileID: 3343218724609352054, guid: da637ccf92db47d4fa6d0dc7e4640725, type: 3}
